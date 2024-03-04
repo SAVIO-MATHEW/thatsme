@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thatsme/static/css/main.f855e6bc.css",
+    "main.js": "/thatsme/static/js/main.7981e5e7.js",
+    "static/js/453.863db667.chunk.js": "/thatsme/static/js/453.863db667.chunk.js",
+    "static/media/logo.svg": "/thatsme/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/thatsme/index.html",
+    "main.f855e6bc.css.map": "/thatsme/static/css/main.f855e6bc.css.map",
+    "main.7981e5e7.js.map": "/thatsme/static/js/main.7981e5e7.js.map",
+    "453.863db667.chunk.js.map": "/thatsme/static/js/453.863db667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.7981e5e7.js"
+  ]
+}
