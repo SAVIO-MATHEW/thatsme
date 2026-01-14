@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaDownload } from "react-icons/fa";
 import "./styles.scss";
 
 function Header() {
@@ -186,7 +187,7 @@ function Achievements() {
     "October 2023: Recognized for dedication and instrumental role in successful project go-live.",
     "March 2024: Recognized for implementing View Usage module, enhancing functionality for 10,000+ users.",
     "June 2024: Appreciated for hard work in multiple releases of DSS project.",
-    "Recognition: Earned special recognition from Team Leads and Technology Architects Architects for consistently delivering high-quality, clean, and maintainable code.",
+    "Recognition: Earned special recognition from Team Leads and Technology Architects for consistently delivering high-quality, clean, and maintainable code.",
   ];
 
   return (
@@ -254,6 +255,19 @@ function Education() {
   );
 }
 
+function DownloadButton() {
+  return (
+    <div className="button-container">
+      <a href="/Resume-Savio Mathew.pdf" download="Resume-Savio_Mathew.pdf">
+        <button className="download-btn">
+          {" "}
+          Download Resume {" "}  <FaDownload style={{ marginLeft: "8px" }} className="text-white text-lg" />
+        </button>
+      </a>{" "}
+    </div>
+  );
+}
+
 export default function App() {
   const [theme, setTheme] = useState("light");
 
@@ -272,6 +286,7 @@ export default function App() {
       </button>
       <Header />
       <main className="main-content">
+        <DownloadButton />
         <Summary />
         <Skills />
         <Experience />

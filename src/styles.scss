@@ -354,3 +354,33 @@ body {
     font-size: 1.1rem;
   }
 }
+.button-container {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  padding: 20px;
+}
+
+.download-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile: full width */
+@media (max-width: 768px) {
+  .download-btn {
+    width: 100%;
+    max-width: none;
+  }
+}
+
